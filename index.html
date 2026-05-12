@@ -11,10 +11,11 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <a class="skip-link" href="#top">Skip to main content</a>
   <header class="site-header">
     <div class="container nav">
-      <a href="#top" class="brand">DM</a>
-      <nav>
+      <a href="#top" class="brand" aria-label="Denise Maldonado Baney — Home">DM</a>
+      <nav aria-label="Primary">
         <ul>
           <li><a href="#about">About</a></li>
           <li><a href="#projects">Projects</a></li>
@@ -25,7 +26,7 @@
     </div>
   </header>
 
-  <main id="top">
+  <main id="top" tabindex="-1">
     <!-- Hero -->
     <section class="hero container">
       <p class="eyebrow">Hello, I'm</p>
@@ -145,8 +146,8 @@
     <section id="resume" class="section container">
       <div class="section-head">
         <h2>Resume</h2>
-        <!-- TODO: link to a hosted PDF copy of your resume -->
-        <a class="btn btn-ghost btn-small" href="#" download>Download PDF</a>
+        <!-- TODO: when you host a PDF resume, restore the link below with the real href. -->
+        <!-- <a class="btn btn-ghost btn-small" href="/resume.pdf" download>Download PDF</a> -->
       </div>
 
       <div class="resume-grid">
